@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bolt's Glocery Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="Fonticons/css/all.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <!-- This is the header section -->
+        <header>
+          <!-- Navigation bar -->
+          <nav class="navbar navbar-expand-md bg-success navbar-dark">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="30px">BOLT</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#main-store">Store</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav">
+                <li>
+                  <!-- Button to Open the Modal -->
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                    <span id="cartNumber">0</span>
+                    <span>- Items</span>
+                    <i class="fas fa-shopping-cart"></i>
+                  </button>
+
+                  <!-- The Modal -->
+                  <div class="modal" id="myModal" class="cart">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header bg-success" style="color:white">
+                          <h4 class="modal-title">CART</h4>
+                          <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row cart-row">
+                              <div class="col-sm-3">
+                                <span class="cart-item">ITEM</span>
+                              </div>
+                              <div class="col-sm-3">
+                                <span class="cart-price">PRICE</span>
+                              </div>
+                              <div class="col-sm-3">
+                                <span class="cart-quantity">QUANTITY</span>
+                              </div>
+                              <div class="col-sm-3">
+                                <span></span>
+                              </div>
+                            </div>
+                            <div class="cart-items">
+
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+                          <div class="cart-total">
+                            <strong class="cart-total-title">Total = </strong>
+                            <span class="cart-total-price">0 frs</span>
+                          </div>
+                          <button type="button" class="btn btn-success btn-purchase">Purchase</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+      </div>
+      </nav>
+    </div>
+    </nav>
+    <!-- End of the navigation bar -->
+    <div class="background img-responsive">
+      <h1 class="main-title">BOLT'S GROCERY STORE</h1>
+    </div>
+    </header>
+  </div>
+  </div><br><br>
+  <!-- store section starts from here -->
+  <div class="row">
+    <div class="col-sm-12">
+      <h1 id="main-store">Store</h1>
+    </div>
+  </div>
+  <div class="row store-items">
+    <div class="col-sm-3">
+      <div class="store-item">
+        <span class="store-item-title">Apple</span>
+        <img class="store-item-image" src="images/apple.jpg" class="img-responsive" width="230" height="250">
+        <div class="store-item-details">
+          <span class="store-item-price">100 frs</span>
+          <button class="btn btn-success store-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div><br><br>
+    </div>
+    <div class="col-sm-3">
+      <div class="store-item">
+        <span class="store-item-title">Banana</span>
+        <img class="store-item-image" src="images/banana.jpg" class="img-responsive" width="230" height="250">
+        <div class="store-item-details">
+          <span class="store-item-price">200 frs</span>
+          <button class="btn btn-success store-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div><br><br>
+    </div>
+    <div class="col-sm-3">
+      <div class="store-item">
+        <span class="store-item-title">Watermelon</span>
+        <img class="store-item-image" src="images/watermelon.jpg" class="img-responsive" width="230" height="250">
+        <div class="store-item-details">
+          <span class="store-item-price">1000frs</span>
+          <button class="btn btn-success store-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div><br><br>
+    </div>
+    <div class="col-sm-3">
+      <div class="store-item">
+        <span class="store-item-title">Pineapple</span>
+        <img class="store-item-image" src="images/pineapple.jpg" class="img-responsive" width="230" height="250">
+        <div class="store-item-details">
+          <span class="store-item-price">200Frs</span>
+          <button class="btn btn-success store-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div>
+    </div>
+  </div><br>
+  <div class="row store-items">
+    <div class="col-sm-3">
+      <div class="store-item">
+        <span class="store-item-title">Fanta juice</span>
+        <img class="store-item-image" src="images/bottle.jpg" class="img-responsive" width="230" height="250">
+        <div class="store-item-details">
+          <span class="store-item-price">250 frs</span>
+          <button class="btn btn-success store-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div><br><br>
+    </div>
+    <div class="col-sm-3">
+      <div class="store-item">
+        <span class="store-item-title">Tole tea</span>
+        <img class="store-item-image" src="images/tole tea.jpg" class="img-responsive" width="230" height="250">
+        <div class="store-item-details">
+          <span class="store-item-price">500 frs</span>
+          <button class="btn btn-success store-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div><br><br>
+    </div>
+    <div class="col-sm-3">
+      <div class="store-item">
+        <span class="store-item-title">Water</span>
+        <img class="store-item-image" src="images/supermont.jpg" class="img-responsive" width="230" height="250">
+        <div class="store-item-details">
+          <span class="store-item-price">400frs</span>
+          <button class="btn btn-success store-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div><br><br>
+    </div>
+    <div class="col-sm-3">
+      <div class="store-item">
+        <span class="store-item-title">Malta</span>
+        <img class="store-item-image" src="images/malt.jpg" class="img-responsive" width="230" height="250">
+        <div class="store-item-details">
+          <span class="store-item-price">350Frs</span>
+          <button class="btn btn-success store-item-button" type="button">ADD TO CART</button>
+        </div>
+      </div><br><br>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-12">
+      <footer class="main-footer bg-success">
+        <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+          <a class="navbar-brand" href="#">BOLT</a>
+          <ul class="navbar-nav" style="font-size: 1.5em">
+            <li class="nav-item">
+              <a class="nav-link" href="http/www.facebook.com" target="_blank">
+                <i class="fab fa-facebook-square"> Facebook</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http/www.twitter.com">
+                <i class="fab fa-twitter-square"> Twitter</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">
+                <i class="fas fa-phone"> +237,651,666,994</i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
+  </div>
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html

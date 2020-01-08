@@ -1,0 +1,39 @@
+header{
+   
+}
+
+/* background image */
+.background{
+    background-image: url("../images/vegetables.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30vw;
+    
+
+}
+/* styling the header Bolt's grocery store */
+.main-title{
+    text-align: center;
+    color: brown;
+}
+#main-store{
+    color:darkgreen;
+    text-align: center;
+    font-weight: bold;
+    background-color:burlywood;
+}
+ .store-item-title{
+    color:brown;
+    text-align: center;
+    font-weight: bold;
+}
+.main-footer{
+    color: white;
+}
+nav ul{
+    padding-right: 40vw;
+    font-size: 2em;
+}
+li{
+    padding:0 5%;
+}
